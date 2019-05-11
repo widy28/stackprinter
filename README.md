@@ -4,7 +4,7 @@
 
 This prints tracebacks / call stacks with code context and the values of nearby variables. It answers most of the questions I'd ask an interactive debugger: Where in the code did it happen, what's in the relevant local variables, and why was _that_ function called with _those_ arguments.
 
-Basically, it's a more helpful version of Python's built-in crash message. It will either print things itself or give you a string for logging.
+Basically, it's a more helpful version of Python's built-in crash message. It will either print to the console or give you a string for logging.
 
 ```bash
 pip install stackprinter
